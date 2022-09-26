@@ -97,7 +97,7 @@ int main(void)
     int i;
     size_t arr_sz = sizeof(node_arr)/sizeof(node_arr[0]);
     printf ("Array is: ");
-    for (;i<arr_sz;i++) {
+    for (i=0;i<arr_sz;i++) {
         printf("%d, ", node_arr[i]);
     }
     printf("\n");
